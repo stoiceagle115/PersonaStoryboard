@@ -66,6 +66,7 @@ h4 {
 
 .ishot {
   height: calc(100vh - 56px); /* 100% of vertical height - 56px*/
+  width: 90vw;
   object-fit: scale-down;
 }
 
