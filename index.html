@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Parts of this code (sepcifically the nav bar and observations section) is based on Jeff Huang's Bootstrap Presentation-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personas & Storyboarding</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Personas & Storyboarding</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="navbar-item"><a href="#process" class="nav-link">Process</a></li>
+                    <li class="navbar-item"><a href="#interface" class="nav-link">Interface</a></li>
+                    <li class="navbar-item"><a href="#observations" class="nav-link">Observations</a></li>
+                    <li class="navbar-item"><a href="#personas" class="nav-link">Personas</a></li>
+                    <li class="navbar-item"><a href="#storyboard" class="nav-link">Storyboard</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+<!-- Remove justify content later-->
+<div class="d-flex flex-column backdrop justify-content-center align-items center">
+    <!-- <img src="" alt="description"-->
+    <!-- <h1 class="text-light">-->
+    <!-- btn = button-->
+    <h1 class="text-dark display-1">Personas & Storyboarding</h1>
+    <h2 class="text-dark h6">This project is an exercise</h2>
+    <a href="#observations" class="btn text-dark btn-lg"> Go to Observations</a>
+</div>
+
+<div id="about" class="container-fluid text-center">
+    <h4> About </h4>
+    <p> The goal of this exercise is to understand and examine how eveyday users interact with a public interface in
+        order to
+        gain insight into the UX design process and learn how to better construct similar interfaces.</p>
+</div>
+
+<div id="process" class="bg-dark">
+    <h4 class="text-light text-center">Process</h4>
+    <p class="text-light text-center"> This task involves a 4-step Process</p>
+    <div class="row">
+        <div class="col-6 col-md-3 text-light text-center">1
+            <img class="frameshot" src="/Photos/icon7.png">
+            <h5>Interface</h5>
+        </div>
+        <div class="col-6 col-md-3 text-light text-center">2
+            <img class="frameshot" src="Photos/icon5.png">
+            <h5>Observations</h5>
+            <p> </p>
+        </div>
+        <div class="col-6 col-md-3 text-light text-center">3
+            <img class="frameshot" src="Photos/icon3.png">
+            <h5>Personas</h5>
+        </div>
+        <div class="col-6 col-md-3 text-light text-center">4
+            <img class="frameshot" src="Photos/icon4.png">
+            <h5>Storyboard</h5>
+        </div>
+    </div>
+    <div class="text-light text-center">
+        <p>The public interface I chose to examine was a self-checkout kiosk located at CVS. I first analyzed all the
+            different aspects of the interface, then observed and interviewed a few users about the process of using the
+            interface. Then, I constructed personas based off those user experiences and finally created a storyboard
+            to visually show the whole process of using that interface.</p>
+        <br>
+    </div>
+</div>
+
+<div id="interface" class="container-fluid">
+    <h4> Interface </h4>
+    <p class="text-dark"> An interface is chosen. All interactive elements of the system are examined and noted.
+        <br>Focus is given to the purpose and use of the interface; what problem it is trying to solve.
+    </p>
+    <div class="text-center">
+        <h5>Physical Interface</h5>
+        <img class="ishot" src="Photos/InterfaceP.png">
+        <p>This interface has both a physical and digital component. The along with the digital terminal, the kiosk also
+            includes an area to scan items and a payment terminal on the right. The purpose of this interface is to
+            automate the process of customer checkout. The interface is designed to be easy to understand on the first
+            use and quick to complete.</p>
+        <br>
+        <h5>Digital Interface</h5>
+        <img class="dshot" src="Photos/InterfaceF.png">
+        <p>Below is represented the important screens of the digital interface. It takes you through the process of
+            paying for items.</p>
+    </div>
+</div>
+
+<div id="observations" class="bg-dark">
+    <h4 class="text-light text-center">Observations</h4>
+    <p class="text-light text-center"> Real world users are observed using the interface. Then, they are interviewed
+        based on thier
+        experineces.
+        <br>Emphasis is put on objective observations and the user's goals and difficulties while using the interface.
+    </p>
+    <div class="row px-md-3 px-lg-5 pt-3 justify-content-center">
+        <div class="col-md-6 col-xl-5 col-xxl-4 mb-4">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Key Observations</h3>
+                </div>
+                <div class="card-body lead">
+                    <p class="card-text"> - Two out of the three users were able to use the interface without the need
+                        of outside assistance
+                        <br> - All the users took a similar amount of time (around 1 min 45 sec) to finish using the
+                        interface
+                        <br> - The help button on the interface seemed to do nothing when one of the users pressed it,
+                        and the user had to physically go and ask a worker for help
+                        <br> - All users were immediately able to understand how to use the interfaces' scanner.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-xl-5 col-xxl-4 mb-4">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h3>Questions</h3>
+                </div>
+                <div class="card-body lead">
+                    <ul>
+                        <li>1. Was this the first time using this interface, if so what was your first reaction the the
+                            interface?</li>
+                        <li>2. Are there any features of a checkout with a store clerk that you would want the
+                            self-service kiosk to include?</li>
+                        <li>3. Did it take longer, shorter or the the expected amount of time to use</li>
+                        <li>4. Was there anything about the interface which caused you great frustration</li>
+                        <li>5. Were the phsyical and digital aspects of the interface well-integrated?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h4 class="text-light text-center">Responses</h4>
+    <ul>
+        <li class="text-light">All of the users found the diagrams on the digital interface to be very helpful
+            in understanding how to use the physical interface</li>
+        <li class="text-light">One of the users had coupons and was frustrated by the fact that when coupons are
+            submitted, the reduction
+            in cost is not calculated immediately but only when the user presses the pay button.</li>
+        <li class="text-light">All the users felt the process of using the interface was very quick.</li>
+        <li class="text-light">Another user voiced concern over the fact that the interface did not have a search bar,
+            if
+            the barcode does
+            not work then there is no way to enter the item into the system.</li>
+    </ul>
+</div>
+
+<div id="personas" class="container-fluid">
+    <h4> Personas </h4>
+    <p class="text-dark"> From those user experinces, personas are constructed which are represented in the below
+        empathy maps.
+        <br>A persona is archetypal representation of a subset of the intended users for the selected interface.
+    </p>
+    <div class="row">
+        <div class="col text-light text-center">
+            <img class="pshot" src="Photos/PersonaRF.png">
+            <h5 class="text-dark">Relaxed Richard</h5>
+        </div>
+        <div class="col text-light text-center">
+            <img class="pshot" src="Photos/PersonaDF.png">
+            <h5 class="text-dark">Determined Diana</h5>
+        </div>
+    </div>
+
+</div>
+
+<div id="storyboard" class="bg-dark">
+    <h4 class="text-light text-center">Storyboard</h4>
+    <p class="text-light text-center"> One of those personas is placed into a storyboard. The storyboard conveys the
+        persona's journey in using the chosen interface.
+        <br> It offers an authentic scenario of what the persona might do in such a situation (and by proxy how certain
+        users might act).
+    </p>
+</div>
+
+<footer class="footer footer-expand-sm bg-dark">
+</footer>
+
+
+</html>
